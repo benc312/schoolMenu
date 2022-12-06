@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     // 1
     return Scaffold(
-       backgroundColor: const Color.fromARGB(255, 100, 100, 101),
+       backgroundColor: Colors.bluegrey,
       // 2
       appBar: AppBar(
         title: Text(widget.title),
@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget buildRecipeCard(FullDay food) {
     return Card(
-      color: const Color.fromRGBO(25, 28, 64, 1.0),
+      color: Colors.grey,
       // 1
       elevation: 2.0,
       // 2
